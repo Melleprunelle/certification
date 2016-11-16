@@ -8,6 +8,25 @@ body {
     font-family: "Open Sans";
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.mockup {
+    width: 90%;
+    margin: 0 auto;
+}
+.mockup img {
+    width: 45%;
+    display: inline-block;
+    margin: 2%;
+}
+
+
 header {
     height: 200px;
     width: 100%;
@@ -35,6 +54,7 @@ header h1 {
 section {
     width: 65%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 h2 {
     margin-top: 70px;
@@ -101,4 +121,3 @@ ul p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
